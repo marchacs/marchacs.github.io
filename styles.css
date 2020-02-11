@@ -1,3 +1,16 @@
-body{background-color: antiquewhite}
-h1,h2,h3,h4,h5{font-family: 'Abril Fatface', cursive;}
-ul, p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
+body{background-color:#EFEADE;border-width: medium;
+margin-left: 35px;
+    margin-right:35px;
+	padding: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: 0px;}
+html{background-image: url(sunset.jpg);}
+h2,h3,h4,h5{font-family: 'Abril Fatface', cursive; color:darkblue ;font-kerning: normal;}
+h1{font-family: 'Abril Fatface', cursive; color:darkblue;font-kerning: normal;text-align:center;text-decoration:underline; }
+
+ul, p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A; }
+
+
+.headshot{display:block; margin-left: auto; margin-right: auto;width:50%;}
+.p1{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A; text-align: center;}
