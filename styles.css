@@ -13,7 +13,7 @@ color:black;}
 h1{font-family: 'Poiret One', normal;
  color: black;font-kerning: normal;text-align:center;text-decoration:underline; }
 
- p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A;
+ ul,p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A;
 list-style-type: square;}
 
 a:hover{color:black;text-align: center;}
