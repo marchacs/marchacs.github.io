@@ -8,7 +8,7 @@ margin-left: 35px;
 }
 html{background-image: url(images/sunset.jpg);}
 
-h2,h3,h4,h5{font-family: 'Didact Gothic', ;
+h2,h3,h4,h5{font-family: 'Didact Gothic',;
 color:black;font-kerning: normal;}
 h1{font-family: 'Didact Gothic', ;
  color: black;font-kerning: normal;text-align:center;text-decoration:underline; }
@@ -16,7 +16,9 @@ h1{font-family: 'Didact Gothic', ;
  p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A;
 list-style-type: square;}
 
-a:hover{color:darkblue;text-align: center;}
+a:hover{color:black;text-align: center;}
+
+.currentlink{color:black;}
 
 .logo{ width: 8%;}
 
