@@ -14,6 +14,8 @@ ul, p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 
 list-style-type: square;}
 a:hover{color:darkblue;}
 
+.logo{display:block; margin left:auto; margin right:auto; width: 25%;}
+
 
 
 .headshot{display:block; margin-left: auto; margin-right: auto;width:50%;}
