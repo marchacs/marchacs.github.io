@@ -1,4 +1,4 @@
-body{background-color:ghostwhite;border-width: medium;
+body{background-color:white;border-width: medium;
 margin-left: 35px;
     margin-right:35px;
 	padding: 10px;
@@ -7,7 +7,7 @@ margin-left: 35px;
     border: 0px;
 }
 html{background-image: url(images/sunset.jpg);}
-h2,h3,h4,h5{font-family: 'Abril Fatface', cursive; color:darkblue ;font-kerning: normal;}
+h2,h3,h4,h5{font-family: 'Abril Fatface', cursive; color:black;font-kerning: normal;}
 h1{font-family: 'Abril Fatface', cursive; color:darkblue;font-kerning: normal;text-align:center;text-decoration:underline; }
 
 ul, p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A;
