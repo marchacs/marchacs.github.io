@@ -1,38 +1,83 @@
+
+html{background-image: url(images/sunset.jpg);}
+
 body{background-color: white;border-width: medium;
-margin-left: 35px;
+    margin-left: 35px;
     margin-right:35px;
 	padding:35px;
     margin-top: 35px;
     margin-bottom: 35px;
-    border: 25px;
-}
-html{background-image: url(images/sunset.jpg);}
+    border: 25px;}
 
-h2,h3,h4,h5{font-family: 'Poiret One', normal;
-color:black;}
 
-h1{font-family: 'Poiret One', normal;
- color: black;font-kerning: normal;text-align:center;}
+h2,h3,h4,h5{
+    font-family: 'Poiret One', normal;
+    color:black;}
 
- ul,p{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A;
-list-style-type: square; }
+h1{
+    font-family: 'Poiret One', normal;
+    color: black;font-kerning: normal;text-align:center;}
 
-a:hover{color:deeppink; text-align: center;}
+ ul,p{
+     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A;
+     list-style-type: square; }
 
-.logo{ width: 8%;}
+a:hover{
+    color:deeppink;
+    text-align: center;}
 
-.familyphoto{float:right; width:25%;}
+.logo{
+    width: 8%;}
 
-.CAATrophy{Width: 50%; display:block; margin-left: auto; margin-right: auto; }
+.familyphoto{
+    float:right;
+    width:25%;}
 
-header{ padding:1%;}
+.CAATrophy{
+    Width: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto; }
 
-nav li{display:inline; padding:5%; position:static;font-family: 'Poiret One', normal;
-color:black;}
+header{
+    padding:1%;}
 
-.headshot{display:block; margin-left: auto; margin-right: auto;width:50%;}
+nav li{
+    display:inline;
+    padding:5%;
+    position:static;
+    font-family: 'Poiret One', normal;
+    color:black;}
 
-.p1{font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: #81818A; text-align: center;}
+.headshot{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;}
 
-a{font-family: 'Poiret One', normal;
-color:black; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
+.p1{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #81818A;
+    text-align: center;}
+
+a{
+    font-family: 'Poiret One', normal;
+    color:black;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;}
+
+.wrapper{  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);}
+.one{grid-column: 1}
+.two{grid-column: 2/3}
+.three{grid-column:3/3}
